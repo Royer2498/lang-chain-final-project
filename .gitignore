@@ -1,0 +1,4 @@
+node_modules/
+.env
+.embeddings-cache.json
+eval-results.txt

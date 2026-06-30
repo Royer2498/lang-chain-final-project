@@ -1,0 +1,17 @@
+{
+  "name": "incident-rag-assistant",
+  "version": "1.0.0",
+  "description": "AI-powered engineering runbook and incident response assistant using RAG + LangChain.js",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "eval": "node src/eval.js"
+  },
+  "dependencies": {
+    "@langchain/core": "^1.2.1",
+    "@langchain/google-genai": "^2.2.0",
+    "@langchain/textsplitters": "^1.0.1",
+    "dotenv": "^16.0.0"
+  }
+}
